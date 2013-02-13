@@ -1,0 +1,31 @@
+Проект справочника на основе python фрамеворке camelot
+
+зависимости:
+
+python фрамеворк camelot https://github.com/jeroendierckx/Camelot
+зависимости фрамеворка camelot
+    python 2.7
+    pyqt>=4.8
+    sqlalchemy>=0.7.2
+    migrate>=0.7.1
+    jinja>=2.5.5
+    chardet>=1.0.1
+    xlwt=0.7.2
+    xlrd=0.7.1
+    elixir=0.7.1
+
+Ввиду использования ORM фрамеворка sqlalchemy 
+справочник может использовать широкий спектр СУБД
+работоспасобность протестирована на sqlite и PostgreSQL
+
+Структура проекта:
+
+fito_bd - каталог проекта созданный при помощи camelot-а
+for_build - дополнительные конфигурационные файлы необходимые
+            для сборки проекта с сипользованием cx_freeze
+main.py - запускающий скрипт проекта
+setup.py - setup созданные camelot-ом
+setup_cx.py - setup для сборки пакета в среде linux - tar.bz,
+              в среде windows -  msi
+build_lin_archiv.sh - bash скрипт для сборки пакета в среде linux
+build_win_installer.bat - bat сценарий для борки msi в среде windows

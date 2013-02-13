@@ -1,0 +1,190 @@
+# Translations template for fito_bd.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the fito_bd project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fito_bd 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-01-26 21:33+0400\n"
+"PO-Revision-Date: 2013-01-26 21:33+0300\n"
+"Last-Translator: oldbay <oldbay@mail.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: fito_bd/application_admin.py:12
+msgid "View Authors"
+msgstr "Показать авторов"
+
+#: fito_bd/application_admin.py:44
+msgid "flora_list"
+msgstr "Список таксонов"
+
+#: fito_bd/application_admin.py:48
+msgid "hdbk"
+msgstr "Справочники"
+
+#: fito_bd/application_admin.py:59
+msgid "Imports"
+msgstr "Импорты"
+
+#: fito_bd/application_admin.py:63
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: fito_bd/model.py:21
+msgid "Cons to DB"
+msgstr "Кон. в БД"
+
+#: fito_bd/model.py:35
+msgid "Create hdbk Familia"
+msgstr "Создать справочник \"Семейство\""
+
+#: fito_bd/model.py:37
+msgid "Create hdbk Genus"
+msgstr "Создать справочник \"Род\""
+
+#: fito_bd/model.py:39
+msgid "Create hdbk LF Raunkier"
+msgstr "создать справочник \"Ж.Ф. по Раункиеру\""
+
+#: fito_bd/model.py:41
+msgid "Create hdbk LF Serebryakov"
+msgstr "Создать справочник \"Ж.Ф. по Серебрякову\""
+
+#: fito_bd/model.py:43
+msgid "Create hdbk Relat at sal"
+msgstr "Создать справочник \"Отношение к засолению\""
+
+#: fito_bd/model.py:45
+msgid "Create hdbk Phytocenosis"
+msgstr "Создать справочник \"Фитоценозы\""
+
+#: fito_bd/model.py:47
+msgid "Create hdbk Aqua regimen"
+msgstr "Создать справочник \"Водный режим\""
+
+#: fito_bd/model.py:49
+msgid "Create hdbk Area"
+msgstr "Создать справочник \"Ареалы\""
+
+#: fito_bd/model.py:51
+msgid "Create Species list"
+msgstr "Создать Список флоры"
+
+#: fito_bd/model.py:79 fito_bd/model.py:181 fito_bd/model.py:211
+#: fito_bd/model.py:238 fito_bd/model.py:265 fito_bd/model.py:292
+#: fito_bd/model.py:319 fito_bd/model.py:346 fito_bd/model.py:379
+#: fito_bd/model.py:402
+msgid "unknown"
+msgstr "неизвестно"
+
+#: fito_bd/model.py:82 fito_bd/model.py:125 fito_bd/model.py:419
+msgid "Species"
+msgstr "Вид"
+
+#: fito_bd/model.py:102 fito_bd/model.py:162 fito_bd/model.py:196
+#: fito_bd/model.py:225 fito_bd/model.py:252 fito_bd/model.py:279
+#: fito_bd/model.py:306 fito_bd/model.py:333 fito_bd/model.py:362
+msgid "title"
+msgstr "Основные данные"
+
+#: fito_bd/model.py:112
+msgid "LF"
+msgstr "Жизненная форма"
+
+#: fito_bd/model.py:116
+msgid "Relats"
+msgstr "Экологические характеристики"
+
+#: fito_bd/model.py:121 fito_bd/model.py:138 fito_bd/model.py:359
+#: fito_bd/model.py:375 fito_bd/model.py:432
+msgid "Area"
+msgstr "Флористические районы"
+
+#: fito_bd/model.py:126 fito_bd/model.py:420
+msgid "Species Loc"
+msgstr "Вид рус."
+
+#: fito_bd/model.py:127 fito_bd/model.py:159 fito_bd/model.py:174
+#: fito_bd/model.py:421
+msgid "Genus"
+msgstr "Род"
+
+#: fito_bd/model.py:128 fito_bd/model.py:175 fito_bd/model.py:422
+msgid "Genus Loc"
+msgstr "Род рус."
+
+#: fito_bd/model.py:129 fito_bd/model.py:176 fito_bd/model.py:193
+#: fito_bd/model.py:206 fito_bd/model.py:423
+msgid "Familia"
+msgstr "Семейство"
+
+#: fito_bd/model.py:130 fito_bd/model.py:177 fito_bd/model.py:207
+#: fito_bd/model.py:424
+msgid "Familia Loc"
+msgstr "Семейство рус."
+
+#: fito_bd/model.py:131 fito_bd/model.py:425
+msgid "Image"
+msgstr "Изображение"
+
+#: fito_bd/model.py:132 fito_bd/model.py:178 fito_bd/model.py:208
+#: fito_bd/model.py:234 fito_bd/model.py:261 fito_bd/model.py:288
+#: fito_bd/model.py:315 fito_bd/model.py:342 fito_bd/model.py:373
+#: fito_bd/model.py:426
+msgid "Description"
+msgstr "Описание"
+
+#: fito_bd/model.py:133 fito_bd/model.py:222 fito_bd/model.py:235
+#: fito_bd/model.py:427
+msgid "LF Raunkier"
+msgstr "Ж.Ф. по Раункиеру"
+
+#: fito_bd/model.py:134 fito_bd/model.py:249 fito_bd/model.py:262
+#: fito_bd/model.py:428
+msgid "LF Serebryakov"
+msgstr "Ж.Ф. по Серебрякову"
+
+#: fito_bd/model.py:135 fito_bd/model.py:276 fito_bd/model.py:289
+#: fito_bd/model.py:429
+msgid "Relat at sal"
+msgstr "Отношение к засолению"
+
+#: fito_bd/model.py:136 fito_bd/model.py:303 fito_bd/model.py:316
+#: fito_bd/model.py:430
+msgid "Phytocenosis"
+msgstr "Эколого-фитоценотическая группа"
+
+#: fito_bd/model.py:137 fito_bd/model.py:330 fito_bd/model.py:343
+#: fito_bd/model.py:431
+msgid "Aqua regimen"
+msgstr "Водный режим"
+
+#: fito_bd/model.py:169 fito_bd/model.py:173 fito_bd/model.py:229
+#: fito_bd/model.py:233 fito_bd/model.py:256 fito_bd/model.py:260
+#: fito_bd/model.py:283 fito_bd/model.py:287 fito_bd/model.py:310
+#: fito_bd/model.py:314 fito_bd/model.py:337 fito_bd/model.py:341
+#: fito_bd/model.py:368 fito_bd/model.py:372
+msgid "Speciess"
+msgstr "Виды"
+
+#: fito_bd/model.py:201 fito_bd/model.py:205
+msgid "Genuss"
+msgstr "Роды"
+
+#: fito_bd/model.py:374
+msgid "Geo Map"
+msgstr "Карта флористического районирования"
+
+#: fito_bd/model.py:376
+msgid "Area Loc"
+msgstr "Полное название района"
+
+#: fito_bd/model.py:405
+msgid "Import Conspect"
+msgstr "Импорт Конспект"
